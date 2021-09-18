@@ -371,15 +371,7 @@ Animações do botão.
 /*
 Ícone de Qualidade.
  */
-.jw-svg-icon-quality-100 path {
-	display: none;
-}
 
-.jw-svg-icon-quality-100 {
-	background-image:url('hd.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-}
 
 /*
 Ícone de Fechar.
