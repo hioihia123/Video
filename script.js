@@ -45,7 +45,7 @@ const playerInstance = jwplayer("player").setup({
       captions: [
         {
           file:
-            "Lyrics.vtt",
+            "https://raw.githubusercontent.com/hioihia123/Video/main/Lyrics.vtt",
           label: "English",
           kind: "captions",
           default: true
