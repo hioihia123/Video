@@ -28,39 +28,28 @@ const playerInstance = jwplayer("player").setup({
   playlist: [
     {
       image:
-        "https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg",
+        "maxresdefault.jpg",
       sources: [
         {
           file:
-            "https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4",
+            "Video.mp4",
           label: "1080p FHD",
           default: true
         },
         {
           file:
-            "https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4",
+            "Video.mp4",
           label: "720p HD"
         },
-        {
-          file:
-            "https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4",
-          label: "480p SD"
-        }
       ],
       captions: [
         {
           file:
-            "https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt",
+            "Lyrics.vtt",
           label: "English",
           kind: "captions",
           default: true
         },
-        {
-          file:
-            "https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.fr.vtt",
-          label: "Français",
-          kind: "captions"
-        }
       ]
     }
   ]
